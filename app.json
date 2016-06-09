@@ -1,0 +1,19 @@
+{
+  "name": "go-helloworld",
+  "description": "My test go helloworld program",
+  "scripts": {
+  },
+  "env": {
+    "API_KEY": "xyz"
+  },
+  "formation": {
+  },
+  "addons": [
+
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/go"
+    }
+  ]
+}
